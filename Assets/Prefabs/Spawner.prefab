@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 130393811298354203}
   - component: {fileID: 130393811298354202}
   - component: {fileID: 3385550326725138151}
+  - component: {fileID: -4968920551015860282}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -105,3 +106,19 @@ MonoBehaviour:
   spawnArea: 2
   maxZombiesToSpawn: 10
   explosion: {fileID: 5927525933745284026, guid: 90b396f8bf315064db3716fa82c1f5fc, type: 3}
+--- !u!58 &-4968920551015860282
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130393811298354197}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
